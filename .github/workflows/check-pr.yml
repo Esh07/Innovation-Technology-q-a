@@ -24,7 +24,7 @@ jobs:
           
           # Check if any file other than question.json was modified
           for file in $MODIFIED_FILES; do
-            if [ "$file" != "question.json" ]; then
+            if [ "$file" != "question.json" ] && [ "$file" != "README.md" ]; then
               # Close the pull request and leave a comment
               curl \
                 -X POST \
