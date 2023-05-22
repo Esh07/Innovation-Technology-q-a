@@ -11,25 +11,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-    
+        with:
+          fetch-depth: 0
+
       - name: Fetch latest changes from base branch
         run: git fetch origin ${{ github.base_ref }}
 
-      - name: Check if only questions.json was modified
+      - name: Check if only question.json was modified
         run: |
           # Get the list of modified files
-          MODIFIED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
+          MODIFIED_FILES=$(git diff --name-only origin/${{ github.base_ref }} ${{ github.event.pull_request.head.sha }})
           
-          # Check if any file other than questions.json was modified
+          # Check if any file other than question.json was modified
           for file in $MODIFIED_FILES; do
-            if [ "$file" != "questions.json" ]; then
+            if [ "$file" != "question.json" ]; then
               # Close the pull request and leave a comment
               curl \
                 -X POST \
                 -H "Accept: application/vnd.github+json" \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                 https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.number }}/comments \
-                -d '{"body":"Only changes to `questions.json` are allowed. Please update your pull request."}'
+                -d '{"body":"Only changes to `question.json` are allowed. Please update your pull request."}'
               
               curl \
                 -X PATCH \
