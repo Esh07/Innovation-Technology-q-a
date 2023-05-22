@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+    
+      - name: Fetch latest changes from base branch
+        run: git fetch origin ${{ github.base_ref }}
 
       - name: Check if only questions.json was modified
         run: |
