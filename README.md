@@ -8,4 +8,4 @@ Be aware that the answers to the questions are completely determined by the conv
 
 ## How to Contribute
 
-This readme only visible into the new pr which i am about to create a pull request to main. It only for testing whether the ci/cd sccir[t prevent by checking if questions.json file modifieid
+This readme only visible into the new pr which i am about to create a pull request to main. It only for testing whether the ci/cd sccir[t prevent by checking if questions.json file modifieid. let's try second attem[pt
