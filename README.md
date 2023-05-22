@@ -1,4 +1,4 @@
-# Innovation Technology Module
+# Technology and Innovation Management 
 
 All of the practise questions from the module session are collected in this repository and are available in searchable form. 
 
