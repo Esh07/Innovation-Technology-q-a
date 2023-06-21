@@ -10,9 +10,10 @@ Be aware that the answers to the questions are completely determined by the modu
 Treat this resource as a valuable tool to enhance your understanding and test your knowledge.
 
 Good luck with your mock tests!
-
+<center>
 <img src="index-page-img.png" alt="index-page-img" style="zoom:50%;" />
-<a href="https://esh07.github.io/innovation-technology-q-a/">Live Demo</a>
+<a href="https://esh07.github.io/Innovation-Technology-q-a/">Live Demo</a>
+</center>
 
 ## How to Contribute
 
