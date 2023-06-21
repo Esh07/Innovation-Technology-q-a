@@ -5,7 +5,7 @@ All of the practice questions from the module session are collected in this repo
 
 These practice questions were created by Module Convenor using a Google Form (currently unavailable).
 
-Be aware that the answers to the questions are completely determined by the module convenor. As a result, if you google or something similar, you might find another option as an answer but it hasn't been verified by me yet (to be updated once I receive the result and response). So the repository currently relies entirely on the response from the Google Form.
+Be aware that the answers to the questions are completely determined by the module convenor. As a result, if you google or something similar, you might find another option as an answer but it hasn't been verified by me yet (to be updated once I receive the feedback and response). So the repository currently relies entirely on the response from the Google Form.
 
 Treat this resource as a valuable tool to enhance your understanding and test your knowledge.
 
