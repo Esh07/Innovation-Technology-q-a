@@ -17,6 +17,6 @@ Good luck with your mock tests!
 
 ## How to Contribute
 
-Currently, you can only contribute to the project by adding new questions and answers. Please keep in mind that only the `questions.json` (you can find at root directory) file can be modified in the pull request; otherwise, your PR will be closed automatically.
+You can fork the repo and add additional questions in the `questions.json` file. 
 
 Make sure to keep the question and answer in the same format.
